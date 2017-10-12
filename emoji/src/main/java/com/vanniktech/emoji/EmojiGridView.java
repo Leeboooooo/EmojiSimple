@@ -16,7 +16,7 @@ class EmojiGridView extends GridView {
     super(context);
 
     final Resources resources = getResources();
-    final int width = resources.getDimensionPixelSize(R.dimen.emoji_grid_view_column_width);
+    final int width = resources.getDimensionPixelSize(R.dimen.emoji_grid_view_column_width_small);
     final int spacing = resources.getDimensionPixelSize(R.dimen.emoji_grid_view_spacing);
 
     setColumnWidth(width);
